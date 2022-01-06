@@ -7,4 +7,4 @@
 https://flaviocopes.com/mysql-how-to-install/
 
 
-(Deploy )[https://github.com/harsh6768/deploy-in-ec2]
+(https://github.com/harsh6768/deploy-in-ec2)[Install MYSQL IN ec2]
