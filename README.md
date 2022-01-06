@@ -9,3 +9,9 @@ https://flaviocopes.com/mysql-how-to-install/
 #### Install MYSQL IN ec2
 
 https://github.com/harsh6768/deploy-in-ec2
+
+### Open mysql in terminal : 
+
+use command : 
+
+       mysql -u root -p
