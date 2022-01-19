@@ -58,7 +58,20 @@ Master configuration changes :
    
         binlog_ignore_db   = ignore_db_name
         
-  now save the file and exit
+  now save the file and exit.
+  
+  
+##### restart mysql after modification of /etc/mysql/mysql.conf.d/mysqld.cnf file
+
+    
+       sudo systemctl restart mysql
+     
+       or 
+     
+       sudo service mysql restart
+     
+       make your restart your mysql after modification else you can face any issues
+    
 
    
       
