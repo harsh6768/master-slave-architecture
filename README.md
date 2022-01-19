@@ -53,5 +53,12 @@ Master configuration changes :
          binlog_do_db = db_name1
          binlog_do_db = db_name2
          
+         
+   E. Alternatively, you can specify which databases MySQL should not replicate by adding a binlog_ignore_db directive for each one:
+   
+        binlog_ignore_db   = ignore_db_name
+        
+  now save the file and exit
+
    
       
