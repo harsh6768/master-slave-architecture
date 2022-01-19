@@ -38,5 +38,20 @@ Master configuration changes :
    B.  #server_id 
       Uncomment server_id and server_id can be any integer but it shoule be unique to all your database serverIds .
       
-      server_id =1
+        server_id =1
+        
+   C.  # log_bin = /var/log/mysql/mysql-bin.log      Uncomment log bin in file
+      
+         log_bin = /var/log/mysql/mysql-bin.log
+         
+   D. # binlog_do_db = include_database_name        Uncomment binlog_do_db  in file
    
+         binlog_do_db = db_name     // db_name should which one do you wanna replicate
+         
+         if there are more than one db then just copy and paste the above line 
+         
+         binlog_do_db = db_name1
+         binlog_do_db = db_name2
+         
+   
+      
