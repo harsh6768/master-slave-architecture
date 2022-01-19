@@ -73,5 +73,15 @@ Master configuration changes :
        make your restart your mysql after modification else you can face any issues
     
 
-   
+#### mysql service start,status,restart and stop command 
+
+     sudo service mysql start
+     
+     sudo service mysql stop
+     
+     sudo service mysql restart
+     
+     sudo service mysql status
+     
+     
       
