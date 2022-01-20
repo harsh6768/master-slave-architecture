@@ -3,6 +3,13 @@
 <img src="https://github.com/harsh6768/master-slave-architecture/blob/main/Screenshots/master_slave.png"/>
 
 
+### Master-Slave Architecture 
+
+Read full information about master-slave (super-replication) architecture in Database.
+
+https://dev.mysql.com/doc/refman/8.0/en/replication.html#:~:text=Replication%20enables%20data%20from%20one,receive%20updates%20from%20a%20source.
+
+
 #### On macOS, you can install MySQL easily using Homebrew.
 
 https://flaviocopes.com/mysql-how-to-install/
@@ -87,5 +94,7 @@ use command :
      
      
  ### 2 Creating a Replication User : 
+  
+  
  
  
