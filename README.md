@@ -96,8 +96,8 @@ use command :
  ### 2 Creating a Replication User : 
  
  
-     Each replica in a MySQL replication environment connects to the source database with a username and password. Replicas can connect using any MySQL user    
-     profile that exists on the source database and has the appropriate privileges, but this tutorial will outline how to create a dedicated user for this purpose.
+ Each replica in a MySQL replication environment connects to the source database with a username and password. Replicas can connect using any MySQL user    
+ profile that exists on the source database and has the appropriate privileges, but this tutorial will outline how to create a dedicated user for this purpose.
      
      
   1. Start by opening up the MySQL shell:
