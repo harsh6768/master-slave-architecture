@@ -100,7 +100,7 @@ use command :
      profile that exists on the source database and has the appropriate privileges, but this tutorial will outline how to create a dedicated user for this purpose.
      
      
-     1. Start by opening up the MySQL shell:
+  1. Start by opening up the MySQL shell:
      
           sudo mysql
           
@@ -109,19 +109,19 @@ use command :
           mysql -u root -p  //if you have already created user for your database.
           
      
-     2. Create new replica or slave user : 
+ 2. Create new replica or slave user : 
      
           CREATE USER 'replica_user'@'replica_server_ip' IDENTIFIED WITH mysql_native_password BY 'password';
           
       
-     3. After creating the new user, grant them the appropriate privileges. At minimum, a MySQL replication user must have the REPLICATION SLAVE permissions:
+ 3. After creating the new user, grant them the appropriate privileges. At minimum, a MySQL replication user must have the REPLICATION SLAVE permissions:
 
      
           GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'replica_server_ip';
           
           
-     4.  it’s good practice to run the FLUSH PRIVILEGES command. This will free up any memory that the server cached as a result of the preceding CREATE USER and
-         GRANT statements:
+ 4.  it’s good practice to run the FLUSH PRIVILEGES command. This will free up any memory that the server cached as a result of the preceding CREATE USER and
+     GRANT statements:
          
           FLUSH PRIVILEGES;
 
