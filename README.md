@@ -10,6 +10,11 @@ Read full information about master-slave (super-replication) architecture in Dat
 https://dev.mysql.com/doc/refman/8.0/en/replication.html#:~:text=Replication%20enables%20data%20from%20one,receive%20updates%20from%20a%20source.
 
 
+### You can also checkout Digital Ocean documentation for step by step process.
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql
+
+
 #### On macOS, you can install MySQL easily using Homebrew.
 
 https://flaviocopes.com/mysql-how-to-install/
@@ -126,11 +131,25 @@ use command :
           FLUSH PRIVILEGES;
 
 
-
-
-          
-          
+### 3. Retrieving Binary Log Coordinates from the Source
      
+       
+
+    1. From the prompt, run the following command which will close all the open tables in every database on your source instance and lock them:
+
+           FLUSH TABLES WITH READ LOCK;
+   
+    2.  Check status of the master database 
+    
+    
+           SHOW MASTER STATUS;
+
+          
+        you see the status of the master database , you need to copy file name , position 
+        
+        
+        1. file name will be similar to : mysql-bin.000001
+        2. position will be the number :  899
 
 
   
