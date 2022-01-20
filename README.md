@@ -20,7 +20,7 @@ use command :
 ### After installing mysql in MASTER AND SLAVE instance we will start with Master configuration.
 
 
-Master configuration changes : 
+### 1. Master configuration changes : 
 
 1. open mysqld.cnf using vi or nano editor to edit.
  
@@ -84,4 +84,6 @@ Master configuration changes :
      sudo service mysql status
      
      
-      
+ ### 2 Creating a Replication User : 
+ 
+ 
