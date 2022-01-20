@@ -1,5 +1,7 @@
 # master-slave-architecture
  
+<img src="https://github.com/harsh6768/master-slave-architecture/blob/main/Screenshots/master_slave.png"/>
+
 
 #### On macOS, you can install MySQL easily using Homebrew.
 
